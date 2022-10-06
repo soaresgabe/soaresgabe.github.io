@@ -6,9 +6,9 @@ import {FaGithub} from 'react-icons/fa';
 function HeaderSocials() {
     return (
         <div className="header-socials">
-            <a href="https://github.com/soaresgabe" target="_blank"><FaGithub className="icon"/></a>
-            <a href="https://www.linkedin.com/in/gabriel-soares-a27998101/" target="_blank"><BsLinkedin className="icon"/></a>
-            <a href="https://www.instagram.com/soaresgabe/" target="_blank"><BsInstagram className="icon"/></a>
+            <a href="https://github.com/soaresgabe" target="_blank" rel="noopener noreferrer"><FaGithub className="icon"/></a>
+            <a href="https://www.linkedin.com/in/gabriel-soares-a27998101/" target="_blank" rel="noopener noreferrer"><BsLinkedin className="icon"/></a>
+            <a href="https://www.instagram.com/soaresgabe/" target="_blank" rel="noopener noreferrer"><BsInstagram className="icon"/></a>
         </div>
     )
 }
