@@ -1,0 +1,50 @@
+header {
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.head {
+    margin: 3rem 3rem 4rem;
+}
+
+.msg {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.name {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+
+/* HEADER SOCIALS */
+.icon {
+    color: white;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 3rem;
+    color: white;
+    font-size: xxx-large;
+}
+
+.header-socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: white;
+}
