@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 import HeaderSocials from "./HeaderSocials";
 import './header.css'
 
-function Header({}) {
+function Header() {
   return <header className="top-container">
 
     <div className="head">
