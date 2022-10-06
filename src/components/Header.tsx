@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 import HeaderSocials from "./HeaderSocials";
 import './header.css'
 
-export function Header({}) {
+function Header({}) {
   return <header className="top-container">
 
     <div className="head">
@@ -18,4 +18,5 @@ export function Header({}) {
 
   </header>;
 }
-  
+
+export default Header;

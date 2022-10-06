@@ -1,5 +1,4 @@
-import { Header } from './components/Header';
-import { Avatar } from './components/Avatar';
+import Header from './components/Header';
 import React from 'react';
 
 function App() {
