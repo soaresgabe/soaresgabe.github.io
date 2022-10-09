@@ -7,7 +7,7 @@ import './header.css'
 function Header() {
   return <header className="top-container">
 
-    <div className="head" id="#">
+    <div className="head" id="home">
       <h1 className="msg">Hello, I'm</h1>
       <h1 className="name">Gabe Soares</h1>
       <h1 className="title">Fullstack Developer</h1>
