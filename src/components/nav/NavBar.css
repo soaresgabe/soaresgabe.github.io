@@ -1,0 +1,37 @@
+.icon {
+    color: white;
+}
+
+nav {
+    background-color: rgba( 250, 250, 250, 0.25 );
+    width: max-content;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 500%;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: rgba( 150, 150, 250, 0.3 );
+    color: black;
+}

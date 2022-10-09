@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "./Avatar";
-import HeaderSocials from "./HeaderSocials";
+import NavBar from "../nav/NavBar";
+import HeaderSocials from "../socials/HeaderSocials";
 import './header.css'
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
     </div>
 
     <Avatar />
-
+    <NavBar />
     <HeaderSocials />
 
   </header>;
